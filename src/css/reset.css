@@ -29,3 +29,21 @@ i{
     background-image: url(../img/AmazonUIBaseCSS-sprite.png);
     background-repeat: no-repeat
 }
+.clear-float::after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.horizon-line{
+    width: auto;
+    height: 1px;
+    background-color:  #e7e7e7;
+}
+.vertical-line{
+    width: 1px;
+    height: auto;
+    background-color:  #e7e7e7;
+}
