@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="../css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../css/register.css">
+    <link type="text/css" rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <main>
+        <div id="logo">
+            <a href="#"></a>
+        </div>
+        <div id="error">
+            <h4>出现了一个问题</h4>
+            <p>验证码输入有误，请重新输入</p>
+            <i></i>
+        </div>
+        <div id="register">
+            <h1>创建账户</h1>
+            <label for="name">您的姓名</label>
+            <input type="text" name="" id="name" class="register-text" autofocus>
+            <label for="phonenumber">手机号码</label>
+            <div>
+                <select name="" id="country">
+                    <option value="中国">CN+86</option>
+                    <option value="美国">US+1</option>
+                    <option value="日本">JP+81</option>
+                    <option value="台湾">TW+886</option>
+                </select>
+                <input type="text" name="" id="phonenumber" class="register-text" placeholder="手机号码">
+            </div>
+            <label for="email">电子邮件地址（可选）</label>
+            <input type="text" name="" id="email" class="register-text">
+            <label for="password">密码</label>
+            <input type="password" name="" id="password" class="register-text" placeholder="至少六个字符">
+
+            <div class="warning">
+                <i></i>
+                <span>密码必须至少为 6 个字符。</span>
+            </div>
+            <input type="checkbox" name="" id="agree">
+            <span>我已阅读并同意网站的<a href="#">使用条件</a>及<a href="#">隐私声明</a>。</span>
+            <p>
+                我们将向您发送短信验证您的手机。<br />
+                可能收取消息和数据费用。
+            </p>
+            <button class="continue-btn">继续</button>
+
+            <div class="register-h5">
+                <h5>其他注册方式</h5>
+            </div>
+            <button class="register-weixin">
+                <i></i>
+                <a href="#">微信账号登录</a>
+            </button>
+            <div class="login">
+                <div class="line"></div>
+                <p>已拥有账户？<a href="login.html">登录<i></i></a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <div class="footer-div">
+            <a href="#">使用条件</a>
+            <a href="#">隐私声明</a>
+            <a href="#">帮助</a>
+        </div>
+        <p>版权所有 © 1996-2019，亚马逊公司或其关联公司</p>
+    </footer>
+
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function(){
+            $('#name').on('change',function(){
+                console.log(this.value);
+            });
+            $('#phonenumber').on('change',function(){
+                console.log(this.value);
+            });
+            $('#email').on('change',function(){
+                console.log(this.value);
+            });
+            $('#password').on('change',function(){
+                console.log(this.value);
+            });
+            $('.login-btn').on('click',function(){
+                console.log( $('#loginname').val(),$('#password').val());
+            });
+        });
+    </script>
+</body>
+
+</html>

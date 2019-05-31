@@ -1,0 +1,31 @@
+html,body,div,main,header,footer,h1,h2,h3,h4,h5,h6,label,select,form,input,a,p,i,ul,li,dl,dt,dd{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+}
+ul,ol,dl{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #0066c0;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+}
+i{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 400px 750px;
+    vertical-align: top;
+    background-image: url(../img/AmazonUIBaseCSS-sprite.png);
+    background-repeat: no-repeat
+}

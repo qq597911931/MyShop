@@ -1,0 +1,163 @@
+body main {
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+body main #logo {
+  text-align: center;
+  margin-bottom: 18px;
+}
+body main #logo a {
+  display: block;
+  height: 38px;
+  width: 87px;
+  background: url(../img/AmazonUIBaseCSS-sprite.png) no-repeat -5px -590px;
+}
+body main #error {
+  border: #c40000 1px solid;
+  margin-bottom: 18px;
+  width: 350px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px #fcf4f4 inset;
+  padding: 14px 18px 14px 63px;
+  position: relative;
+}
+body main #error h4 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.255;
+  color: #c40000;
+}
+body main #error i {
+  height: 27px;
+  width: 30px;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  background-position: -248px -34px;
+}
+body main #login {
+  width: 350px;
+  padding: 20px 26px;
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+}
+body main #login h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+}
+body main #login label {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 900;
+}
+body main #login .login-text {
+  background-color: #fff;
+  height: 31px;
+  padding: 3px 7px;
+  line-height: normal;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 14px;
+}
+body main #login .login-text:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5);
+}
+body main #login div label {
+  float: left;
+}
+body main #login div .login-forget {
+  float: right;
+}
+body main #login button {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 18px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  vertical-align: middle;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+}
+body main #login button:active {
+  box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5);
+}
+body main #login .login-btn {
+  border-color: #a88734 #9c7e31 #846a29;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+body main #login .login-btn:hover {
+  background: #f0c14b;
+}
+body main #login .login-remenber {
+  margin-bottom: 26px;
+}
+body main #login .login-remenber span {
+  padding-left: 5px;
+}
+body main #login .login-remenber a i {
+  margin-left: 5px;
+  background-position: -90px 3px;
+}
+body main #login .login-weixin {
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  background: #13D71F;
+  background: linear-gradient(top, #13d71f, #63d71f);
+  color: white;
+}
+body main #login .login-weixin i {
+  background-position: -249px -190px;
+}
+body main #login .login-weixin a {
+  color: white;
+}
+body main #login .login-register {
+  background: #e7e9ec;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+}
+body main #login .login-register a {
+  color: black;
+}
+body main #login .login-register:hover {
+  background: #adb1b8;
+}
+body main #login .login-h5 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 14px;
+}
+body main #login .login-h5 h5 {
+  position: relative;
+  background: white;
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 400;
+  display: inline-block;
+  padding: 0 8px 0 7px;
+  text-align: center;
+  z-index: 1;
+}
+body main #login .login-h5::after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+}
+body main #login p {
+  font-size: 12px;
+}

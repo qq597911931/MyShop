@@ -1,0 +1,316 @@
+body{
+    #headimg{
+        width: 100%;
+        height: 40px;
+        background: #ffe0d7;
+        position: relative;
+        padding: 5px 0;
+        div{
+            width: 820px;
+            position: relative;
+            .header-img{
+                display: block;
+                height: 30px;
+                width: 820px;
+                background-image: url(../img/gz_ads_mouseover820-30._CB459093854_.jpg) ;
+            }
+            .header-img:hover~.header-hide,.header-hide:hover{
+                transition: all 0.6s;
+                display: block;
+            }
+            .header-hide{
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+                height: 460px;
+                width: 820px;
+                background-image: url(../img/gz_ads_mouseover820-460._CB459093849_.jpg) ;
+            }
+        }
+    }
+    #search{
+        height: 50px;
+        padding: 10px;
+        line-height: 50px;
+        display: flex;
+        justify-content:flex-start;
+        .logo{
+            height: 38px;
+            width: 167px;
+            margin: 0 30px ;
+            background: url(../img/AmazonUIBaseCSS-sprite.png) no-repeat -5px -590px;
+        }
+        #search-div{
+            align-self:stretch;
+            width: 100%;
+            margin-right: 20px;
+            form{
+                height: 100%;
+                display: flex;
+                justify-content:flex-start;
+                *{ 
+                    vertical-align: top;
+                    height: 100%;
+                }
+                select{
+                    margin: 0;
+                    width: 90px;
+                    padding-left: 5px;
+                    overflow: hidden;
+                    border: 1px solid #cdcdcd;
+                    border-right: 0px;
+                    border-top-color: #bdbdbd;
+                    border-radius: 4px 0 0 4px;
+                    background: url(../img/global-sprite-32-v1._CB476259932_.png) no-repeat 0 -532px;
+                }
+                .search-input{
+                    flex: 1;
+                }
+                .search-button{
+                    background: url(../img/global-sprite-32-v1._CB476259932_.png) no-repeat -31px -281px;
+                    width: 40px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    border: 1px solid;
+                    border-left: 0px;
+                    border-color: #485059 #2c3137 #363c43 #485059;
+                    background-color: #5B626A;
+                    border-radius: 0 4px 4px 0;
+                }
+            }
+        }
+    }
+    nav{
+        height: 40px;
+        padding: 5px 15px;
+        background-image: url(../img/global-sprite-32-v1._CB476259932_.png);
+        background-position: 0 -725px;
+        position: relative;
+        .nav{
+            line-height: 40px;
+            height: 40px;
+            width: 122px;
+            float: left;
+            a{
+                height: 40px;
+                width: 120px;
+                i{
+                    margin-left: 5px;
+                    background-position:-90px 3px;
+                }
+            }
+        }
+
+        .nav-ul{
+            float: left;
+            margin: 0 15px;
+            li{
+                text-align: center;
+                line-height: 40px;
+                float: left;
+                height: 40px;
+                padding: 5px 10px;
+            }
+            li:hover a{
+                color: #e47911;
+            }
+        }
+
+        .admin{
+            float: right;
+            line-height: 40px;
+            height: 40px;
+            position: relative;
+            a{
+                float: left;
+                height: 40px;
+                i{
+                    margin-left: 5px;
+                    background-position:-90px 3px;
+                }
+            }
+
+            .nav-car{
+                position: relative;
+                i{
+                    display: inline-block;
+                    display: block;
+                    overflow: hidden;
+                    position: absolute;
+                    left: -10px;
+                    top: 5px;
+                    background-image: url(../img/global-sprite-32-v1._CB476259932_.png);
+                    background-position: -5px -320px;
+                    width: 50px;
+                    height: 30px;
+                }
+                .nav-number{
+                    color: #e47911;
+                    font-weight: 700;
+                    position: absolute;
+                    left: -22px;
+                    top: -8px;
+                }
+                span{
+                    margin-left:45px;
+                }
+            }
+        }
+
+        .nav-top{
+            display :block;
+            font-size: 12px;
+            line-height: 15px;
+            height: 15px;
+            font-weight: 400;
+            margin: 5px 0 0 15px;
+            color: black;
+        }
+        .nav-button{
+            display :block;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 700;
+            padding-bottom: 5px;
+            margin-left:15px;
+            color: black;
+            
+        }
+        .button-a:hover{
+            // text-decoration: none;
+        }
+    
+        .nav-left{
+            padding: 14px 0 8px 0;
+            position: absolute;
+            top: 46px;
+            height: 460px;
+
+            width: 692px;
+
+            border-radius: 3px 3px 3px 3px;     
+            border: 1px solid #bbb;
+            background: #fff;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.13);
+            zoom: 1;
+            .nav-left-triangle{
+                position: absolute;
+                left: 99px;
+                border-style: solid;
+                border-width: 9px;
+                border-color: transparent;
+                border-top-width: 0;
+                border-bottom: 9px solid #ccc;
+                width: 0;
+                height: 0;
+                font-size: 0;
+                line-height: 0;
+                top: -9px;
+                div{
+                    border-style: solid;
+                    border-width: 9px;
+                    border-color: transparent;
+                    border-top-width: 0;
+                    border-bottom: 9px solid #fff;
+                    width: 0;
+                    height: 0;
+                    font-size: 0;
+                    line-height: 0;
+                    position: absolute;
+                    top: 1px;
+                    left: -9px;
+                }
+            }
+            .nav-left-ul{
+                width: 146px;
+                margin: 0 10px 0px 14px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #EEE;
+                .nav-left-li{
+                    padding: 0 8px 5px 0; 
+                    background: url(../img/下载.gif) no-repeat right center;
+                    .nav-left-a{
+                        a{
+                            color: #000;
+                            cursor: pointer;
+                        }
+                        a:hover{
+                            color: #e47911;
+                        }
+                    }
+                    .nav-left-a:hover a{
+                        font-weight: 900;
+                    }
+                    .nav-hide{
+                        width: 520px;
+                        height: 458px;
+                        position: absolute;
+                        top: 0px;
+                        left: 170px;
+                        border-left: 1px solid #EEE;
+                        padding-top: 15px;
+                        h6{
+                            margin: 0 0 8px 0;
+                            height: 18px;
+                            padding: 0 0 0 15px;
+                            font-weight: normal;
+                            a{
+                                font-size: 18px;
+                                color: #e47911;
+                            }
+                        }
+                        ul{
+                            width: 100%;
+                            li{
+                                padding: 7px 0 0 0;
+                                margin: 0 14px;
+                                line-height: 17px;
+                                display: flex;
+                                .nav-hide-title{
+                                    text-align: right;
+                                    width: 96px;
+                                    a{
+                                        color: #e47911;
+                                    }
+                                }
+                                .nav-hide-a{    
+                                    flex: 1;
+                                    margin-left: 5px;
+                                    line-height: 17px;
+                                    a{
+                                        white-space: nowrap;
+                                        padding: 0 6px;
+                                        margin-bottom: 5px;
+                                        display: inline-block;
+                                        border-right: 1px solid #CCC;
+                                        color: #666;
+                                    }
+                                }
+                            }
+                        }
+                        img{
+                            position: absolute;
+                            bottom: 1px;
+                            left: 0px;
+                            width: 100%;
+                        }
+                    }
+                    
+                }
+            }
+            .nav-left-all{
+                margin: 10px 10px 10px 14px;
+                a{
+                    display: inline-block;
+                    width: 100%;
+                    color: #000;
+                    cursor: pointer;
+                }
+                a:hover{
+                    color: #e47911;
+                }  
+            }
+        }
+    }
+}
