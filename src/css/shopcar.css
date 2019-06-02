@@ -1,0 +1,147 @@
+main {
+  display: flex;
+  padding: 14px 18px 18px;
+  min-height: 350px;
+}
+main #main-left {
+  flex: 1;
+}
+main #main-left p {
+  display: flex;
+  margin-right: 15px;
+}
+main #main-left p span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+main #main-left p span:nth-of-type(1) {
+  flex: 5;
+  font-weight: 700;
+  font-size: 21px;
+}
+main #main-left p span:nth-of-type(2) {
+  flex: 2;
+}
+main #main-left p span:nth-of-type(3) {
+  flex: 1;
+}
+main #main-left .commodity-show {
+  padding-top: 20px;
+  margin-right: 15px;
+  display: flex;
+  border-top: 1px solid #e7e7e7;
+  height: 150px;
+}
+main #main-left .commodity-show .commodity-show-text {
+  flex: 5;
+  display: flex;
+}
+main #main-left .commodity-show .commodity-show-text img {
+  margin: 15px;
+  width: 100px;
+  height: 100px;
+}
+main #main-left .commodity-show .commodity-show-text div {
+  flex: 1;
+  margin: 10px 20px;
+}
+main #main-left .commodity-show .commodity-show-text div h5 {
+  font-size: 17px;
+}
+main #main-left .commodity-show .commodity-show-text div p {
+  margin-top: 5px;
+}
+main #main-left .commodity-show .commodity-show-text div p b {
+  margin: 0 5px;
+  color: #B12704;
+}
+main #main-left .commodity-show .commodity-show-text div a {
+  margin: 5px 15px 5px 0;
+}
+main #main-left .commodity-show .commodity-show-price {
+  flex: 2;
+}
+main #main-left .commodity-show .commodity-show-price h5 {
+  margin: 10px 0;
+  color: #B12704;
+  font-size: 17px;
+}
+main #main-left .commodity-show .commodity-show-number {
+  flex: 1;
+}
+main #main-left .commodity-show .commodity-show-number input {
+  margin: 10px 0;
+  width: 50px;
+  height: 30px;
+}
+main #main-left .commodity-show .commodity-show-number button {
+  margin: 10px 0;
+  width: 20px;
+  height: 20px;
+}
+main #main-left .commodity-show .commodity-show-number span {
+  display: none;
+  margin: 10px 0;
+  color: #B12704;
+  font-weight: 800;
+}
+main #main-right {
+  width: 300px;
+  margin: 15px;
+}
+main #main-right .main-right-btn {
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  border: 1px #ddd solid;
+  padding: 14px 20px;
+}
+main #main-right .main-right-btn .btn-title {
+  font-size: 17px;
+}
+main #main-right .main-right-btn .btn-num {
+  font-size: 17px;
+  color: #B12704;
+}
+main #main-right .main-right-btn button {
+  margin-top: 10px;
+  height: 30px;
+  width: 260px;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+}
+footer {
+  float: left;
+  width: 100%;
+}
+footer .footer-ul {
+  width: 800px;
+  display: flex;
+  margin: 40px auto 20px auto;
+}
+footer .footer-ul dl {
+  text-align: left;
+  margin-left: 10px;
+}
+footer .footer-ul dl dt {
+  color: #333;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+footer .footer-ul dl dd {
+  margin: 0 0 6px 0;
+}
+footer .footer-about {
+  line-height: 20px;
+}
+footer .footer-about p {
+  height: 20px;
+  margin: 0 auto;
+}

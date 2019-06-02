@@ -1,7 +1,6 @@
 {
   "name": "MyShop",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,14 @@
     "gulp-imagemin": "^5.0.3",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq597911931/MyShop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qq597911931/MyShop/issues"
+  },
+  "homepage": "https://github.com/qq597911931/MyShop#readme",
+  "description": ""
 }

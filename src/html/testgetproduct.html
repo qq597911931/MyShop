@@ -12,9 +12,9 @@
             $('#btn').on('click', function () {
                 var url = 'getproduct.php';
                 $.get(url, {
-                    productid:10
-                },function (data) {
-                    
+                    productid: 10
+                }, function (data) {
+
                     console.log(data);
                 });
             });
@@ -25,18 +25,12 @@
 </head>
 
 <body>
-    <div class="main-left-recommend">
-        <div>
-            <h6></h6>
-            <i></i>
-            <img src="../img/41zQbBM6DkL._AC_SS150_.jpg" alt="">
-            <span>￥4780.00</span>
+    <div id="main-right">
+        <div class="main-right-btn">
+            <span class="btn-title"></span>
+            <span class="btn-num"></span>
+            <button>进入结算中心</button>
         </div>
-        <div>
-            <img src="../img/41BoB3H3W6L._AC_SS150_.jpg" alt="">
-            <span>￥3738.00</span>
-        </div>
-        <a href="#"></a>
     </div>
 </body>
 
