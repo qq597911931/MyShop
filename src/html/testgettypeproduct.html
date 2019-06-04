@@ -12,9 +12,9 @@
             $('#btn').on('click', function () {
                 var url = 'gettypeproduct.php';
                 $.post(url, {
-                    type : "数码",
-                },function (data) {
-                    
+                    type: "数码",
+                }, function (data) {
+
                     console.log(data);
                 });
             });
@@ -25,7 +25,27 @@
 </head>
 
 <body>
-    <button id="btn">post</button>
+
+    <span></span>
+    <span class="btn-repertory "></span>
+    <button>进入结算中心</button>
+
+
+    <table>
+        <tr>
+            <td>商品名称：</td>
+            <td>索尼NW-ZX300A</td>
+        </tr>
+        <tr>
+            <td>商品编号：</td>
+            <td>5451938</td>
+        </tr>
+        <tr>
+            <td>商品编号：</td>
+            <td>5451938</td>
+        </tr>
+    </table>
+
 </body>
 
 </html>

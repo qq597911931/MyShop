@@ -22,10 +22,16 @@
             top: 0;
             left: 0;
             display: none;
-            height: 460px;
             width: 820px;
+            height: 460px;
             background-image: url(../img/gz_ads_mouseover820-460._CB459093849_.jpg) ;
+            animation:headerhide .4s;
+            @keyframes headerhide{
+                0%{height:0px;opacity: 0;}
+                100%{height: 460px;opacity: 1;}
+            }
         }
+        
     }
 }
 #search{
@@ -100,7 +106,6 @@ nav{
             }
         }
     }
-
     .nav-ul{
         float: left;
         margin: 0 15px;
@@ -115,7 +120,6 @@ nav{
             color: #e47911;
         }
     }
-
     .admin{
         float: right;
         line-height: 40px;
@@ -156,7 +160,6 @@ nav{
             }
         }
     }
-
     .nav-top{
         display :block;
         font-size: 12px;
@@ -179,21 +182,17 @@ nav{
     .button-a:hover{
         text-decoration: none;
     }
-
     .nav-left{
         padding: 14px 0 8px 0;
         position: absolute;
         top: 46px;
         height: 460px;
-
-        width: 692px;
         width: 168px;
-
         border-radius: 3px 3px 3px 3px;     
         border: 1px solid #bbb;
         background: #fff;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.13);
-        zoom: 1;
+        z-index: 5;
         .nav-left-triangle{
             position: absolute;
             left: 99px;
@@ -223,13 +222,12 @@ nav{
             }
         }
         .nav-left-ul{
-            width: 146px;
-            margin: 0 10px 0px 14px;
+            width: 156px;
+            margin-left:14px;
             padding-bottom: 10px;
-            border-bottom: 1px solid #EEE;
             .nav-left-li{
                 padding: 0 8px 5px 0; 
-                background: url(../img/下载.gif) no-repeat right center;
+                background: url(../img/下载.gif) no-repeat 136px center;
                 .nav-left-a{
                     a{
                         color: #000;
@@ -244,11 +242,11 @@ nav{
                 }
                 .nav-hide{
                     display: none;
-                    width: 520px;
+                    width: 525px;
                     height: 458px;
                     position: absolute;
                     top: 0px;
-                    left: 170px;
+                    left: 165px;
                     border-left: 1px solid #EEE;
                     padding-top: 15px;
                     h6{
@@ -311,5 +309,25 @@ nav{
                 color: #e47911;
             }  
         }
+    }
+}
+.show{
+    display: block!important;
+}
+.show-div{
+    width: 692px!important;
+    animation:showdiv .2s;
+    @keyframes showdiv{
+        0%{width:168px;}
+        100%{width: 692px;}
+    }
+}
+.show-li{
+    display: block!important;
+    animation:showsecond .3s;
+    @keyframes showsecond{
+        0%{opacity: 0;}
+        60%{opacity: 0;}
+        100%{opacity: 1;}
     }
 }

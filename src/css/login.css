@@ -13,6 +13,7 @@ body main #logo a {
   background: url(../img/AmazonUIBaseCSS-sprite.png) no-repeat -5px -590px;
 }
 body main #error {
+  display: none;
   border: #c40000 1px solid;
   margin-bottom: 18px;
   width: 350px;
@@ -160,4 +161,11 @@ body main #login .login-h5::after {
 }
 body main #login p {
   font-size: 12px;
+}
+.show {
+  display: block!important;
+}
+.warning {
+  color: #c40000!important;
+  border: #c40000 1px solid!important;
 }

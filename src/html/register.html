@@ -14,16 +14,16 @@
 <body>
     <main>
         <div id="logo">
-            <a href="#"></a>
+            <a href="index.html"></a>
         </div>
         <div id="error">
             <h4>出现了一个问题</h4>
-            <p>验证码输入有误，请重新输入</p>
+            <p></p>
             <i></i>
         </div>
         <div id="register">
             <h1>创建账户</h1>
-            <label for="name">您的姓名</label>
+            <label for="name">您的账号</label>
             <input type="text" name="" id="name" class="register-text" autofocus>
             <label for="phonenumber">手机号码</label>
             <div>
@@ -75,26 +75,8 @@
         <p>版权所有 © 1996-2019，亚马逊公司或其关联公司</p>
     </footer>
 
-    <script src="../js/jquery.js"></script>
-    <script>
-        $(function(){
-            $('#name').on('change',function(){
-                console.log(this.value);
-            });
-            $('#phonenumber').on('change',function(){
-                console.log(this.value);
-            });
-            $('#email').on('change',function(){
-                console.log(this.value);
-            });
-            $('#password').on('change',function(){
-                console.log(this.value);
-            });
-            $('.login-btn').on('click',function(){
-                console.log( $('#loginname').val(),$('#password').val());
-            });
-        });
-    </script>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
 </body>
 
 </html>

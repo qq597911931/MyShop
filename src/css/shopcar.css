@@ -97,16 +97,17 @@ main #main-right .main-right-btn {
   padding: 14px 20px;
 }
 main #main-right .main-right-btn .btn-title {
-  font-size: 17px;
+  font-size: 15px;
 }
-main #main-right .main-right-btn .btn-num {
-  font-size: 17px;
+main #main-right .main-right-btn .btn-price {
+  font-size: 15px;
   color: #B12704;
 }
 main #main-right .main-right-btn button {
   margin-top: 10px;
-  height: 30px;
+  height: 35px;
   width: 260px;
+  padding-right: 25px;
   background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
@@ -115,6 +116,15 @@ main #main-right .main-right-btn button {
   border-style: solid;
   border-width: 1px;
   text-align: center;
+  position: relative;
+}
+main #main-right .main-right-btn button i {
+  position: absolute;
+  background-position: -58px -35px;
+  height: 25px;
+  width: 25px;
+  top: 5px;
+  right: 15px;
 }
 footer {
   float: left;

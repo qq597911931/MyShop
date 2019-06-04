@@ -1,0 +1,266 @@
+main {
+  display: flex;
+  padding: 30px 18px 18px;
+  min-height: 350px;
+}
+main #main-left {
+  flex: 1;
+}
+main #main-left .main-introduce {
+  display: flex;
+}
+main #main-left .main-introduce .main-img {
+  width: 40%;
+  height: 550px;
+  padding-top: 20px;
+  position: relative;
+}
+main #main-left .main-introduce .main-img .small-img {
+  position: relative;
+  margin-top: 50px;
+}
+main #main-left .main-introduce .main-img .small-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+main #main-left .main-introduce .main-img .small-img div {
+  background-image: url(../img/tile._CB483369751_.gif);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+main #main-left .main-introduce .main-img .big-img {
+  display: none;
+  position: absolute;
+  border: 1px solid #bbb;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35);
+  width: 550px;
+  height: 550px;
+  top: 0;
+  right: -570px;
+  z-index: 5;
+  overflow: hidden;
+}
+main #main-left .main-introduce .main-img .big-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 160%;
+  min-height: 160%;
+}
+main #main-left .main-introduce .main-title {
+  width: 60%;
+  padding: 30px;
+}
+main #main-left .main-introduce .main-title h3 {
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+main #main-left .main-introduce .main-title .share {
+  margin-top: 10px;
+}
+main #main-left .main-introduce .main-title .share i {
+  width: 17px;
+  height: 17px;
+  margin: 0 5px;
+}
+main #main-left .main-introduce .main-title .share i:nth-of-type(1) {
+  background-position: -249px -190px;
+}
+main #main-left .main-introduce .main-title .share i:nth-of-type(2) {
+  background-position: -270px -190px;
+}
+main #main-left .main-introduce .main-title .share i:nth-of-type(3) {
+  background-position: -269px -168px;
+}
+main #main-left .main-introduce .main-title .share i:nth-of-type(4) {
+  background-position: -249px -168px;
+}
+main #main-left .main-introduce .main-title .horizon-line {
+  margin: 15px 0;
+}
+main #main-left .main-introduce .main-title .price {
+  color: #555;
+}
+main #main-left .main-introduce .main-title .price span {
+  color: #B12704;
+  font-size: 17px;
+}
+main #main-left .main-introduce .main-title .number {
+  margin: 10px 0;
+  color: #008a00;
+  font-size: 15px;
+}
+main #main-left .main-introduce .main-title .time span {
+  margin-left: 20px;
+}
+main #main-left .main-introduce .main-title .time p {
+  margin: 6px 0;
+}
+main #main-left .main-minute {
+  width: 100%;
+  padding: 40px 100px;
+  text-align: center;
+}
+main #main-left .main-minute table {
+  line-height: 20px;
+  color: #333;
+  width: 100%;
+}
+main #main-left .main-minute table tr {
+  border-collapse: collapse;
+  border-spacing: 2px;
+}
+main #main-left .main-minute table tr td {
+  width: 70%;
+  padding: 3px 1px 3px 10px;
+  border: 1px dotted #ccc;
+  border-left: 0px;
+  border-right: 0px;
+}
+main #main-left .main-minute table tr .td-title {
+  width: 30%;
+  background-color: #F5F5F5;
+}
+main #main-left .main-minute img {
+  text-align: center;
+  margin: 5px auto;
+  max-width: 70%;
+  display: block;
+}
+main #main-right {
+  width: 250px;
+  margin: 15px;
+}
+main #main-right .main-right-btn {
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  padding: 14px 20px;
+}
+main #main-right .main-right-btn .btn-price {
+  color: #B12704;
+}
+main #main-right .main-right-btn .btn-repertory {
+  color: #008a00;
+}
+main #main-right .main-right-btn .btn-number {
+  border: 0px;
+  padding: 5px;
+}
+main #main-right .main-right-btn .btn-number input {
+  margin: 10px 0;
+  width: 50px;
+  height: 30px;
+}
+main #main-right .main-right-btn .btn-number button {
+  margin: 10px 0;
+  width: 20px;
+  height: 20px;
+}
+main #main-right .main-right-btn .btn-number span {
+  visibility: hidden;
+  margin: 10px 0;
+  color: #B12704;
+  font-weight: 800;
+}
+main #main-right .main-right-btn .shopcar {
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+}
+main #main-right .main-right-btn .buynow {
+  border-color: #be751a #b26d18 #9a5f15;
+  background: linear-gradient(to bottom, #f6c88f, #ed9220);
+}
+main #main-right .main-right-btn .join {
+  padding-left: 0;
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+}
+main #main-right .main-right-btn > button {
+  margin: 5px 0;
+  height: 35px;
+  width: 210px;
+  padding-left: 25px;
+  color: #111;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  position: relative;
+}
+main #main-right .main-right-btn > button i {
+  position: absolute;
+  background-position: -58px -35px;
+  height: 25px;
+  width: 25px;
+  top: 5px;
+  left: 10px;
+}
+main #main-right .main-right-btn .horizon-line {
+  margin: 15px 0;
+}
+main #main-right .main-right-account {
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  padding: 14px 20px;
+  margin-top: 30px;
+}
+main #main-right .main-right-account p {
+  text-align: center;
+  margin: 15px 0 10px;
+  font-size: 17px;
+  color: #555;
+}
+main #main-right .main-right-account p span {
+  color: #008a00;
+}
+main #main-right .main-right-account button {
+  padding-left: 0;
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  margin: 5px 0;
+  height: 35px;
+  width: 210px;
+  padding-left: 25px;
+  color: #111;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  position: relative;
+}
+footer {
+  float: left;
+  width: 100%;
+}
+footer .footer-ul {
+  width: 800px;
+  display: flex;
+  margin: 40px auto 20px auto;
+}
+footer .footer-ul dl {
+  text-align: left;
+  margin-left: 10px;
+}
+footer .footer-ul dl dt {
+  color: #333;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+footer .footer-ul dl dd {
+  margin: 0 0 6px 0;
+}
+footer .footer-about {
+  line-height: 20px;
+}
+footer .footer-about p {
+  height: 20px;
+  margin: 0 auto;
+}

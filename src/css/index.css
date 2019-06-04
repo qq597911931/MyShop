@@ -6,10 +6,69 @@ body #banner .banner-support {
   height: 300px;
   width: 168px;
 }
-body #banner .banner-img {
+body #banner .banner {
   margin-left: 10px;
   flex: 1;
-  background-color: lightcoral;
+  position: relative;
+  overflow: hidden;
+}
+body #banner .banner .banner-img {
+  height: 295px;
+  width: 100%;
+  position: relative;
+}
+body #banner .banner .banner-img img {
+  position: absolute;
+  opacity: 0;
+  object-fit: cover;
+}
+body #banner .banner .banner-left {
+  position: absolute;
+  top: 110px;
+  left: -0.5px;
+  display: block;
+  width: 60px;
+  height: 80px;
+  background-image: url(../img/arrow-l._CB349916960_.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body #banner .banner .banner-right {
+  position: absolute;
+  top: 110px;
+  right: -0.5px;
+  display: block;
+  width: 60px;
+  height: 80px;
+  background-image: url(../img/arrow-r._CB349916960_.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body #banner .banner .banner-bottom {
+  width: 100%;
+  height: 5px;
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  opacity: .8;
+}
+body #banner .banner .banner-bottom li {
+  width: 12.5%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+body #banner .banner .banner-bottom li p {
+  line-height: 32px;
+  font-size: 15px;
+  font-weight: 800;
+}
+body #banner .banner .banner-bottom .li-show {
+  background-color: #FF8C00!important;
+}
+body #banner .banner .ul-show {
+  height: 70px;
 }
 body #main-left {
   float: left;
@@ -168,17 +227,62 @@ body #main-left .main-left-recommend div:hover i {
   display: block;
 }
 body #main-left .main-left-tabs {
-  padding: 0 20px;
+  padding: 20px;
 }
 body #main-left .main-left-tabs h4 {
-  margin: 10px;
-  font-size: 21px;
-  font-weight: 400;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  vertical-align: top;
+  padding-left: 10px;
 }
 body #main-left .main-left-tabs .tabs {
-  background-color: #767676;
-  height: 570px;
+  height: 300px;
   margin: 10px 0 22px;
+  display: flex;
+}
+body #main-left .main-left-tabs .tabs div {
+  flex: 1;
+  padding: 15px 15px;
+}
+body #main-left .main-left-tabs .tabs div a {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+body #main-left .main-left-tabs .tabs div a img {
+  max-width: 180px;
+  max-height: 180px;
+}
+body #main-left .main-left-tabs .tabs div a h5 {
+  position: absolute;
+  top: 195px;
+  width: 100%;
+  font-size: 17px;
+  color: #111;
+}
+body #main-left .main-left-tabs .tabs div a p {
+  position: absolute;
+  top: 225px;
+  width: 100%;
+  padding: 0 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+body #main-left .main-left-tabs .tabs div a i {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  width: 100%;
+  top: 250px;
+  background-position: -5px -368px;
+  width: 80px;
+  height: 18px;
+}
+body #main-left .main-left-tabs .tabs a:hover {
+  text-decoration: none;
 }
 body #main-left .main-left-class {
   margin-top: 40px;

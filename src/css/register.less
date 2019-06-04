@@ -2,180 +2,189 @@ body{
     main{
         padding: 14px 18px;
         margin-bottom: 10px;
-    }
-    #logo{
-        text-align: center;
-        margin-bottom: 18px;
-        a{
-            display: block;
-            height: 38px;
-            width: 87px;
-            background: url(../img/AmazonUIBaseCSS-sprite.png) no-repeat -5px -590px;
+    
+        #logo{
+            text-align: center;
+            margin-bottom: 18px;
+            a{
+                display: block;
+                height: 38px;
+                width: 87px;
+                background: url(../img/AmazonUIBaseCSS-sprite.png) no-repeat -5px -590px;
+            }
         }
-    }
-    #error{
-        border: #c40000 1px solid;
-        margin-bottom: 18px;
-        width: 350px;
-        border-radius: 4px;
-        background-color: #fff;
-        box-shadow: 0 0 0 4px #fcf4f4 inset;
-        padding:14px 18px 14px 63px;
-        position: relative;
-        h4{
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 1.255;
-            color: #c40000;
-        }
-        i{
-            height: 27px;
-            width: 30px;
-            position: absolute;
-            left: 18px;
-            top: 15px;
-            background-position: -248px -34px;
-        }
-    }
-    #register{
-        width: 350px;
-        padding: 14px 18px;
-        border-radius: 4px;
-        border: 1px #ddd solid;
-        background-color: #fff;
-        h1{
-            margin-bottom: 10px;
-            font-weight: 400;
-            font-size: 28px;
-            line-height: 1.2;
-        }
-        label{
-            display: block;
-            padding-left: 2px;
-            padding-bottom: 2px;
-            font-weight: 900;
-        }
-        .register-text{
+        #error{
+            border: #c40000 1px solid;
+            margin-bottom: 18px;
+            width: 350px;
+            border-radius: 4px;
             background-color: #fff;
-            height: 31px;
-            padding: 3px 7px;
-            line-height: normal;
-            border: 1px solid #a6a6a6;
-            border-top-color: #949494;
-            border-radius: 3px;
-            box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
-            outline: 0;
-            width: 100%;
-            margin-bottom: 14px;
+            box-shadow: 0 0 0 4px #fcf4f4 inset;
+            padding:14px 18px 14px 63px;
+            position: relative;
+            display: none;
+            h4{
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 1.255;
+                color: #c40000;
+            }
+            i{
+                height: 27px;
+                width: 30px;
+                position: absolute;
+                left: 18px;
+                top: 15px;
+                background-position: -248px -34px;
+            }
         }
-        .register-text:focus{
-            border-color: #e77600;
-            box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
-        }
-        div{
-            select{
-                background: #e7e9ec;
+        #register{
+            width: 350px;
+            padding: 14px 18px;
+            border-radius: 4px;
+            border: 1px #ddd solid;
+            background-color: #fff;
+            h1{
+                margin-bottom: 10px;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 1.2;
+            }
+            label{
+                display: block;
+                padding-left: 2px;
+                padding-bottom: 2px;
+                font-weight: 900;
+            }
+            .register-text{
+                background-color: #fff;
+                height: 31px;
+                padding: 3px 7px;
+                line-height: normal;
+                border: 1px solid #a6a6a6;
+                border-top-color: #949494;
                 border-radius: 3px;
                 box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
-                height: 31px;
-                width: 28%;
-            }
-            #phonenumber{
-                width: 70%;
-            }
-        }
-        .warning{
-            margin-top: -5px;
-            height: 14px;
-            margin-bottom: 18px;
-            i{
-                background-position: -166px -130px;
-            }
-            span{
-                display: inline-block;
-                vertical-align: top;
-                font-size: 12px;
-            }
-        }
-        p{
-            margin: 18px 0;
-        }
-        button{
-            height: 30px;
-            width: 100%;
-            margin-bottom: 18px;
-            border-radius: 3px;
-            border-style: solid;
-            border-width: 1px;
-            vertical-align: middle;
-            box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
-        }
-        button:active,select{
-            box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
-            
-        }
-        .continue-btn{
-            border-color: #a88734 #9c7e31 #846a29;
-            background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
-        }
-        .continue-btn:hover{
-            background: #f0c14b;
-        }
-        .register-weixin{
-            border-color: #adb1b8 #a2a6ac #8d9096;
-            background: #13D71F;
-            background: linear-gradient(top,#13d71f,#63d71f);
-            color: white;
-            i{
-                background-position: -249px -190px;
-            }
-            a{
-                color: white;
-            }
-        }
-        .register-h5{
-            position: relative;
-            text-align: center;
-            margin-bottom: 14px;
-            h5{
-                position: relative;
-                background: white;
-                line-height: 1;
-                font-size: 12px;
-                color: #767676;
-                font-weight: 400;
-                display: inline-block;
-                padding: 0 8px 0 7px;
-                text-align: center;
-                z-index: 1;
-            }
-        }
-        .register-h5::after{
-            content: "";
-            width: 100%;
-            background-color: transparent;
-            display: block;
-            height: 1px;
-            border-top: 1px solid #e7e7e7;
-            position: absolute;
-            top: 50%;
-        }
-        .login{
-            background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
-            zoom: 1;
-            .line::after{
-                display: block;
+                outline: 0;
                 width: 100%;
-                height: 10px;
-                background-color: transparent;
-                background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
-                z-index: 1;
-                content: "";
+                margin-bottom: 14px;
             }
-            i{
-                margin-left: 5px;
-                background-position: -346px -79px;
+            .register-text:focus{
+                border-color: #e77600;
+                box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+            }
+            div{
+                select{
+                    background: #e7e9ec;
+                    border-radius: 3px;
+                    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+                    height: 31px;
+                    width: 28%;
+                }
+                #phonenumber{
+                    width: 70%;
+                }
+            }
+            .warning{
+                margin-top: -5px;
+                height: 14px;
+                margin-bottom: 18px;
+                i{
+                    background-position: -166px -130px;
+                }
+                span{
+                    display: inline-block;
+                    vertical-align: top;
+                    font-size: 12px;
+                }
+            }
+            p{
+                margin: 18px 0;
+            }
+            button{
+                height: 30px;
+                width: 100%;
+                margin-bottom: 18px;
+                border-radius: 3px;
+                border-style: solid;
+                border-width: 1px;
+                vertical-align: middle;
+                box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+            }
+            button:active,select{
+                box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+                
+            }
+            .continue-btn{
+                border-color: #a88734 #9c7e31 #846a29;
+                background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+            }
+            .continue-btn:hover{
+                background: #f0c14b;
+            }
+            .register-weixin{
+                border-color: #adb1b8 #a2a6ac #8d9096;
+                background: #13D71F;
+                background: linear-gradient(top,#13d71f,#63d71f);
+                color: white;
+                i{
+                    background-position: -249px -190px;
+                }
+                a{
+                    color: white;
+                }
+            }
+            .register-h5{
+                position: relative;
+                text-align: center;
+                margin-bottom: 14px;
+                h5{
+                    position: relative;
+                    background: white;
+                    line-height: 1;
+                    font-size: 12px;
+                    color: #767676;
+                    font-weight: 400;
+                    display: inline-block;
+                    padding: 0 8px 0 7px;
+                    text-align: center;
+                    z-index: 1;
+                }
+            }
+            .register-h5::after{
+                content: "";
+                width: 100%;
+                background-color: transparent;
+                display: block;
+                height: 1px;
+                border-top: 1px solid #e7e7e7;
+                position: absolute;
+                top: 50%;
+            }
+            .login{
+                background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+                zoom: 1;
+                .line::after{
+                    display: block;
+                    width: 100%;
+                    height: 10px;
+                    background-color: transparent;
+                    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+                    z-index: 1;
+                    content: "";
+                }
+                i{
+                    margin-left: 5px;
+                    background-position: -346px -79px;
+                }
             }
         }
     }
+}
+.show{
+    display: block!important;
+}
+.input-warning{
+    color: #c40000!important;
+    border: #c40000 1px solid!important;
 }

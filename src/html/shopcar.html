@@ -15,7 +15,7 @@
 
 <body>
     <div id="search">
-        <a href="#" class="logo"></a>
+        <a href="index.html" class="logo"></a>
         <div id="search-div">
             <form action="" method="GET">
                 <select name="" id="" tabindex="15">
@@ -70,18 +70,19 @@
             <li><a href="#">In English</a></li>
         </ul>
         <div class="admin">
-            <a href="#" class="button-a">
-                <span class="nav-top">您好, 登录</span>
+            <a href="login.html" class="button-a login">
+                <span class="nav-top username">您好, 登录</span>
                 <span class="nav-button">我的账户<i></i></span>
-
+                <div class="nav-hide">
+                </div>
             </a>
             <a href="#" class="button-a">
                 <span class="nav-top">免费试享</span>
                 <span class="nav-button">Prime<i></i></span>
             </a>
-            <a href="#" class="nav-car button-a">
+            <a href="shopcar.html" class="nav-car button-a">
                 <i></i>
-                <span class="nav-number">0</span>
+                <span class="nav-number number"></span>
                 <span class="nav-top"></span>
                 <span class="nav-button">购物车</span>
             </a>
@@ -1988,35 +1989,16 @@
         <div id="main-left">
             <p>
                 <span>购物车</span>
-                <span>价格</span>
+                <span>单价</span>
                 <span>数量</span>
             </p>
-            <div class="commodity-show">
-                <div class="commodity-show-text">
-                    <img src="../img/51Tanmua3oL._AC_AA100_.jpg" alt="">
-                    <div>
-                        <h5>Apple iPhone 8 (A1863) 64GB 深空灰色 移动联通电信4G手机Apple iPhone 8 (A1863) 64GB 深空灰色 移动联通电信4G手机</h5>
-                        <p>库存中仅剩<b>3</b>件。</p>
-                        <a href="javascript:;">删除</a><a href="javascript:;">移入收藏夹</a>
-                    </div>
-                </div>
-                <div class="commodity-show-price">
-                    <h5>￥13000.00</h5>
-                </div>
-                <div class="commodity-show-number">
-                    <button>+</button>
-                    <input type="text" value="1">
-                    <button>-</button></br>
-                    <span>数量有误</span>
-                </div>
-            </div>
 
         </div>
         <div id="main-right">
             <div class="main-right-btn">
-                <span class="btn-title">小计(6个商品):</span>
-                <span class="btn-num">￥25477.00</span>
-                <button>进入结算中心</button>
+                <span class="btn-title">小计(0个商品):</span>
+                <span class="btn-price">￥0</span>
+                <button>进入结算中心<i></i></button>
             </div>
         </div>
     </main>
@@ -2060,7 +2042,7 @@
             </dl>
         </div>
         <div class="footer-logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="../img/navAmazonLogoFooter._CB169459411_.gif" alt="">
             </a>
         </div>
@@ -2108,6 +2090,10 @@
 
         </div>
     </footer>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/shopcar.js"></script>
 </body>
 
 </html>

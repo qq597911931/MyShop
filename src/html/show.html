@@ -15,7 +15,7 @@
 
 <body>
     <div id="search">
-        <a href="#" class="logo"></a>
+        <a href="index.html" class="logo"></a>
         <div id="search-div">
             <form action="" method="GET">
                 <select name="" id="" tabindex="15">
@@ -70,18 +70,19 @@
             <li><a href="#">In English</a></li>
         </ul>
         <div class="admin">
-            <a href="#" class="button-a">
-                <span class="nav-top">您好, 登录</span>
+            <a href="login.html" class="button-a login">
+                <span class="nav-top username">您好, 登录</span>
                 <span class="nav-button">我的账户<i></i></span>
-
+                <div class="nav-hide">
+                </div>
             </a>
             <a href="#" class="button-a">
                 <span class="nav-top">免费试享</span>
                 <span class="nav-button">Prime<i></i></span>
             </a>
-            <a href="#" class="nav-car button-a">
+            <a href="shopcar.html" class="nav-car button-a">
                 <i></i>
-                <span class="nav-number">0</span>
+                <span class="nav-number number"></span>
                 <span class="nav-top"></span>
                 <span class="nav-button">购物车</span>
             </a>
@@ -1985,7 +1986,64 @@
         </div>
     </nav>
     <main>
+        <div id="main-left">
+            <div class="main-introduce">
+                <div class="main-img">
+                    <div class="small-img">
+                        <img alt="">
+                        <div class="movebox"></div>
+                    </div>
+                    <div class="big-img">
+                        <img class="bigpic">
+                    </div>
+                </div>
+                <div class="main-title">
+                    <h3>标题</h3>
+                    <div class="share">
+                        分享：<i></i><i></i><i></i><i></i>
+                    </div>
+                    <div class="horizon-line"></div>
+                    <p class="price">价格<span>￥1</span></p>
+                    <p class="number">库存中剩余1件</p>
+                    <div class="time">送达日期：<span>后天(1月1日)</span>
+                        <p>请即刻下单并选择“快递送货上门”。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-minute">
+                <table>
+                    <tr>
+                        <td class="td-title">商品名称：</td>
+                        <td>索尼NW-ZX300A</td>
+                    </tr>
+                </table>
+            </div>
 
+        </div>
+        <div id="main-right">
+            <div class="main-right-btn">
+                <p class="btn-price">￥</p>
+                <p class="btn-repertory">库存中仅有<span>1</span>件</p>
+                <div class="btn-number">
+                    <button class="del">-</button>
+                    <input type="text" value="1">
+                    <button class="add">+</button></br>
+                    <span>数量有误请选择正确的数量</span>
+                </div>
+                <button class="shopcar">进入结算中心<i></i></button>
+                <button class="buynow">现在购买<i></i></button>
+                <div class="horizon-line"></div>
+                <img src="../img/DeliveryStaticPackard-pin_desktop_1x-c944b6819f9e5642fdfd4ff3d1109d60d66d8f87._V2_.png"
+                    alt="">
+                <a href="#">配送至杭州市江干区</a>
+                <div class="horizon-line"></div>
+                <button class="join">加入心愿单</button>
+            </div>
+            <div class="main-right-account">
+                <p>当前余额<span>￥95235.00</span></p>
+                <button>Kindle账户余额</button>
+            </div>
+        </div>
     </main>
     <footer style="height:auto;">
         <div class="horizon-line"></div>
@@ -2027,7 +2085,7 @@
             </dl>
         </div>
         <div class="footer-logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="../img/navAmazonLogoFooter._CB169459411_.gif" alt="">
             </a>
         </div>
@@ -2075,6 +2133,10 @@
 
         </div>
     </footer>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/show.js"></script>
 </body>
 
 </html>
