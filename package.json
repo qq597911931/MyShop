@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "gulp-htmlmin": "^5.0.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
